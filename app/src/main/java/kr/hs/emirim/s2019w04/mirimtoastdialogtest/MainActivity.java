@@ -23,5 +23,7 @@ public class MainActivity extends AppCompatActivity {
         textEmail = findViewById(R.id.text_email);
         editName = findViewById(R.id.edit_name);
         editEmail = findViewById(R.id.edit_email);
+        textToast = findViewById(R.id.text_toast);
+        btnHere = findViewById(R.id.btn_here);
     }
 }
