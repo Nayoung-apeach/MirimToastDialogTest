@@ -15,7 +15,7 @@ public class MainActivity2 extends AppCompatActivity {
     EditText editName, editEmail; //activity_main
     TextView textToast; //toast1
     View dialogView, toastView;
-    Button btnHere; //activity_main
+    Button btnMainHere; //activity_main
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,8 +23,8 @@ public class MainActivity2 extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         editName = findViewById(R.id.edit_main_name);
         editEmail = findViewById(R.id.edit_main_email);
-        btnHere = findViewById(R.id.btn_here);
-        btnHere.setOnClickListener(btnHereListener);
+        btnMainHere = findViewById(R.id.btn_main_here);
+        btnMainHere.setOnClickListener(btnHereListener);
     }
     View.OnClickListener btnHereListener = new View.OnClickListener() {
         @Override
